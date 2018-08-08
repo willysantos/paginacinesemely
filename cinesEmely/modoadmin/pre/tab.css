@@ -1,0 +1,53 @@
+body{
+    background-color: #444444;
+    font-family: Arial;
+}
+.pos{
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 35%;
+    width: 100%;
+}
+#box{
+    padding: 30px;
+    width: 300px;
+    margin: 230px auto auto auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #616161;
+}
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+.sec{
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec input{
+    padding: 5px;
+    border:0;
+    border-bottom: 2px solid #87bdff;
+    width: 250px;
+
+}
+
+.sec label{
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+thead{
+    background-color: #005a88;
+}
