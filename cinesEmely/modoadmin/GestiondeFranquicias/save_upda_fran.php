@@ -7,4 +7,5 @@ if(isset($_POST)){
     $cambio=$pdo->exec("update franquicias set localidad='{$localidad}', activo='{$estado}'"
     . " where id_franquicia={$codigo}");
    header("Location: newFranquicia.php");
+   exit();
 }

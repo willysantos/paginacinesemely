@@ -1,9 +1,10 @@
 <?php
 require '../conexion/conexion.php';
-$consulta=$pdo->query("select ciudad.ciudad, franquicias.localidad, sala.nombre_sala, sala.estado
-from franquicias".
+$consulta=$pdo->query("select ciudad.ciudad, franquicias.localidad, tipo_sala.nombre, sala.estado, 
+sala.nombre_sala from franquicias".
 " inner join ciudad on ciudad.id_ciudad=franquicias.id_ciudad".
-" inner join sala on sala.id_franquicia=franquicias.id_franquicia")
+" inner join sala on sala.id_franquicia=franquicias.id_franquicia".
+" inner join tipo_sala on sala.id_tipodesala = tipo_sala.id_tipo_sala")
 ?>
 <div>
     <?php require '../menus/menu_lado.php';?>
@@ -18,6 +19,7 @@ from franquicias".
                 <th>Localidad</th>
                 <th>Tipo de Sala</th>
                 <th>Estado</th>
+                <th>Nobre de Sala</th>
             </tr>
             </thead>
             <tbody>
@@ -25,8 +27,9 @@ from franquicias".
                 <tr>
                     <td><?php echo $direcc['ciudad']?></td>
                     <td><?php echo $direcc['localidad']?></td>
-                    <td><?php echo $direcc['nombre_sala']?></td>
+                    <td><?php echo $direcc['nombre']?></td>
                     <td><?php echo $direcc['estado']?></td>
+                    <td><?php echo $direcc['nombre_sala']?></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>

@@ -5,6 +5,7 @@ $consulta=$pdo->query("select franquicias.id_franquicia, franquicias.localidad, 
 from franquicias".
 " inner join ciudad on ciudad.id_ciudad = franquicias.id_ciudad".
     " where franquicias.id_franquicia={$codigo}");
+$consulta2=$pdo->query("select * from tipo_sala");
 ?>
 <div>
     <?php require '../menus/menu_lado.php';?>
@@ -27,14 +28,14 @@ from franquicias".
                 <td style="display: none"><input type="text" name="id_franquicia" value="<?php echo $row['id_franquicia']?>"></td>
                 <td><?php echo $row['ciudad']?></td>
                 <td><?php echo $row['localidad'] ?></td>
-                <td><select name="select_sala" id="select_sala">
-                        <option value="Premiun">Premiun</option>
-                        <option value="Estandar">Estandar</option>
-                        <option value="VIP">VIP</option>
-                    </select></td>
+            <?php endforeach; ?>
+                    <td><select name="select_sala" id="select_sala">
+                <?php foreach ($consulta2 as $r): ?>
+                            <option value="<?php echo $r['id_tipo_sala'] ?>"><?php echo $r['nombre']?></option>
+                <?php endforeach; ?>
+                        </select></td>
                 <td><button type="submit" class="btn btn-success" name="boton_guardar_sala">Guardar</button></td>
             </tr>
-            <?php endforeach; ?>
             </tbody>
         </table>
     </form>

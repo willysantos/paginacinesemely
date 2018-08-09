@@ -85,6 +85,8 @@
         <a href="../GestiondeFranquicias/nuevaCiudad.php">Nueva Ciudad</a>
         <a href="../GestiondeFranquicias/newFranquicia.php">Nueva Franquicia</a>
         <a href="../GestiondeFranquicias/sala.php">Salas</a>
+        <a href="../GestiondeFranquicias/tiposdesala.php">Tipos de Salas</a>
+        <a href="../GestiondeFranquicias/Asientos.php">Agregar Asientos</a>
     </div>
     <button class="accordion">*Peliculas</button>
     <div class="panel">

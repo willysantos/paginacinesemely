@@ -46,7 +46,7 @@ if (empty($_POST)){
         pointer-events: auto;
     }
     .modalDialog > div {
-        width: 60%;
+        width: 70%;
         position: relative;
         margin: 10% auto;
         padding: 5px 20px 13px 20px;
@@ -98,6 +98,7 @@ if (empty($_POST)){
                     <th>Estado</th>
                     <th>Ciudad</th>
                     <th>Localidad</th>
+                    <th>Cargo</th>
                     <th>Accion</th>
                 </tr>
                 </thead>
@@ -124,6 +125,12 @@ if (empty($_POST)){
                         <td>
                             <select name="select_localidad" id="select_localidad">
 
+                            </select>
+                        </td>
+                        <td>
+                            <select name="select_tipousuario" id="select_tipousuario">
+                                <option value="Ventas">Ventas</option>
+                                <option value="Admin_Fran">Administrado de Franquicia</option>
                             </select>
                         </td>
 <!--                        <td><input type="text" name="new_localidad" value="--><?php //echo $direc['localidad']?><!--" ></td>-->
