@@ -1,0 +1,33 @@
+body{
+    background-color: #444444;
+}
+.formufra{
+    height: 100px;
+    background-color: #005f81;
+}
+.cuerpo{
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.contienesala{
+
+    background-color: #4CAF50;
+}
+.accor {
+    background-color: #4CAF50;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.panel {
+    padding: 0 18px;
+    background-color: #d7d7d7;
+    display: none;
+    overflow: hidden;
+
+}
