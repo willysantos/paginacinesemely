@@ -5,23 +5,21 @@
  * Date: 7/31/2018
  * Time: 11:06 PM
  */
-session_start();
 
-require_once "../conexion/conexion.php";
+//require "../conexion/conexion.php";
+require '../../../../CE/cinesEmely/modoadmin/conexion/conexion.php';
 
 
 
-$iniciado = isset($_SESSION['iniciado'])? $_SESSION['iniciado']:false;
-
+$iniciado = isset($_SESSION['usuario'])? $_SESSION['iniciado']:false;
 if (!$iniciado){
-
     if(!empty($_POST)){
         $nombre_usuario = isset($_POST["usuario"])? $_POST["usuario"]: '';
         $clave = isset($_POST["contrasena"])? $_POST["contrasena"]: '';
         $resultado= $pdo->query("SELECT * FROM usuario".
             " WHERE usuario = '{$nombre_usuario}'".
             " AND contrasena ='{$clave}'");
-
+        echo "si";
         $usuario =$resultado->fetch(PDO::FETCH_ASSOC);
 
         if ($usuario === false){
@@ -29,7 +27,7 @@ if (!$iniciado){
         }else{
             $_SESSION['usuario']=$usuario['nombre_usuario'];
             $_SESSION['iniciado']=true;
-            header("Location: ../GestiondeFranquicias/principal_gestion_franquicias.php");
+            header("Location: ../../../../CE/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php");
             exit;
         }
 
@@ -50,13 +48,13 @@ if (!$iniciado){
 <html>
 <head>
     <title>Inicio de Sesion al Sistema</title>
-    <link rel="stylesheet" href="iniSession.css">
+    <link rel="stylesheet" href="../../../../CE/cinesEmely/modoadmin/login/iniSession.css">
 </head>
 
 
 <body>
 <div class="wrap">
-<form action="" method="post" class="modform">
+<form action=" " method="post" class="modform">
 
 <!--    <label for="usuario">Nombre Usuario</label>-->
     <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Nombre Usuario">
