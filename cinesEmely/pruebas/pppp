@@ -1,0 +1,16 @@
+<?php
+                if ($contador<count($array)){
+                    $id_s=$array[$contador];
+                    $consulta4=$pdo->query("select butacas.localidad_asiento from butacas".
+                    " inner join tipo_sala on tipo_sala.id_tipo_sala = butacas.id_sala".
+                    " inner join sala on sala.id_tipodesala = tipo_sala.id_tipo_sala".
+                        " where sala.id_sala = {$id_s}");
+                }?>
+                <?php foreach ($consulta4 as $c4):?>
+
+                    <div class="caja" >
+                        <?php echo $c4['localidad_asiento'];?>
+                    </div>
+
+               <?php endforeach;
+                ?>
