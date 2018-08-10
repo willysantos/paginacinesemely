@@ -11,7 +11,7 @@ $consulta2=$pdo->query("select sala.nombre_sala from sala".
 require '../menus/menu_lado.php';
 ?>
 </div>
-<link rel="stylesheet" href="franquicia.css">
+<link rel="stylesheet" href="franquicias.css">
 <script src="../pre/jquery-3.3.1.min.js">
 </script >
 <script>

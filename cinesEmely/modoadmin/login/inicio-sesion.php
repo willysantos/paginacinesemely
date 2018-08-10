@@ -66,6 +66,11 @@ if (!$iniciado){
 <!--    <label for="contrasena"> Contraseña</label>-->
     <input type="password" class="form-control" name="contrasena" id="contrasena" placeholder="Contraseña">
     <br>
+    <select name="select_usuario" id="select_usuario">
+        <option value="Ventas">Ventas</option>
+        <option value="Admin_Fran">Admin. de Franquicia</option>
+        <option value="Administrador">xxxxxxxxxxxxx</option>
+    </select>
 
     <input type="submit" value="Iniciar Sesion">
 </form>

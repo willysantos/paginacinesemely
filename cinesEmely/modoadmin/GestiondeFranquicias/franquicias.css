@@ -24,10 +24,5 @@ body{
     outline: none;
     transition: 0.4s;
 }
-.panel {
-    padding: 0 18px;
-    background-color: #d7d7d7;
-    display: none;
-    overflow: hidden;
 
-}
+
