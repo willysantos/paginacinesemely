@@ -1,5 +1,6 @@
 <?php
 require '../../modoadmin/conexion/conexion.php';
+$contador_id_ciudad=0;
 $ciudad=$pdo->query("select *from ciudad");
 $id_ciudad=$pdo->query("select id_ciudad from ciudad");
 $id_c=[];
@@ -46,16 +47,24 @@ echo count($id_c);
 <!--    --><?php //require'../menu/menu_horizontal2.php'; ?>
 <!--</div>-->
 <?php  foreach ($ciudad as $ciudad): ?>
-    <button class="accordion" value="<?php echo $ciudad['id_ciudad']?> " ><?php echo $ciudad['ciudad']?> </button>
+    <button style="background-color: #00d9ff" class="accordion" ><?php echo $ciudad['ciudad']?> </button>
     <div class="panel">
+        <?php if ($contador_id_ciudad<count($id_c)){
+            $consulta_localidad=$pdo->query("select * from franquicias".
+                " where franquicias.id_ciudad = {$id_c[$contador_id_ciudad]}");
+            foreach ($consulta_localidad as $cl):?>
+            <button class="accordion"><?php echo $cl['localidad']?> </button>
+            <div class="panel" >
+            </div>
         <?php
-        for ($contador_id_ciudad=0;$contador_id_ciudad <count($id_c);$contador_id_ciudad++) {
-        ?>
-        <p style="color: black"><?php echo $id_c[$contador_id_ciudad] ?></p>
-        <?php
-        }   ?>
+        endforeach;
+        } ?>
+
     </div>
-<?php endforeach; ?>
+<?php
+$contador_id_ciudad = $contador_id_ciudad + 1;
+
+endforeach; ?>
 
 
 <script>
