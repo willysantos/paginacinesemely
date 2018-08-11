@@ -15,7 +15,7 @@ $resultado = $pdo->query("Select ciudad from ciudad")
      require '../principal/principaladmin.php';
      ?>
  </div>
- <link rel="stylesheet" href="../pre/tab.css">
+ <link rel="stylesheet" href="CCSfranquicias/NuevaCiudad.css">
  <body>
 <div class="pos">
     <div id="box">
@@ -30,16 +30,22 @@ $resultado = $pdo->query("Select ciudad from ciudad")
                 <input type="text" required placeholder="Nombre de la Ciudad" name="nombre_ciudad">
             </div>
             <div class="sec">
+                <div class="msj">
+                    <?php
+                    if (!empty($mensaje)):
+                        echo '<ul>';
+                        foreach ($mensaje as $mensajes){
+                            echo "<li>{$mensajes}</li>";
+                        }
+
+
+                        echo '</ul>';
+                    endif;
+                    ?>
+                </div>
+
                 <button type="submit" class="btn btn-success" name="boton_guardar_ciuedad">Agregar Ciudad</button>
-                <?php
-                if (!empty($mensaje)):
-                    echo '<ul>';
-                    foreach ($mensaje as $mensajes){
-                        echo "<li>{$mensajes}</li>";
-                    }
-                    echo '</ul>';
-                endif;
-                ?>
+
             </div>
         </form>
     </div>

@@ -1,0 +1,86 @@
+body{
+    background-color: #444444;
+    font-family: "Roboto", Arial, sans-serif, Helvetica;
+}
+.pos{
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 35%;
+    width: 100%;
+}
+#box{
+    padding: 30px;
+    width: 300px;
+    margin: 230px auto auto auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #616161;
+}
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+.sec h4{
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec {
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.msj{
+    padding: 1em;
+    height: 15px;
+    color:#fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+    background: #4caf50;
+    border: 1px solid #4c994d;
+
+}
+
+.sec button[type='submit']{
+    padding: 10px;
+    background: #005a88;
+    color: #f5f5f5;
+    font-size: 1em;
+    font-family: "Roboto",Arial,sans-serif,Helvetica;
+    border-radius: 2px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+
+.sec input{
+    padding: 5px;
+    border:0;
+    border-bottom: 2px solid #0089bd;
+    width: 250px;
+
+}
+
+.sec label{
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+thead{
+    background-color: #005a88;
+    color: white;
+}
