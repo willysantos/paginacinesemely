@@ -20,6 +20,34 @@ $errores='';
 
 
 
+//
+//if(!empty($_POST)){
+//    $nombre_usuario = isset($_POST["usuario"])? $_POST["usuario"]: '';
+//    $clave = isset($_POST["contrasena"])? $_POST["contrasena"]: '';
+//    $cargo = isset($_POST["select_cargo"])? $_POST["select_cargo"]: '';
+//
+//    $resultado= $pdo->query("SELECT * FROM usuario".
+//        " WHERE usuario = '{$nombre_usuario}'".
+//        " AND contrasena ='{$clave}'".
+//        " AND tipo_usuario= '{$cargo}'");
+//
+//    $usuario =$resultado->fetch(PDO::FETCH_ASSOC);
+//
+//    if ($usuario === false){
+//        $errores.='La combinacion usuario-contraseña es incorrecta<br/>';
+//    }else{
+//
+//        $_SESSION['usuario']=$usuario['nombre_usuario'];
+//        $_SESSION['iniciado']=true;
+//        header("Location: ../GestiondeFranquicias/principal_gestion_franquicias.php");
+//        exit;
+//    }
+//
+//
+//}
+
+
+/*////////////////////////////////////////////////////////////////*/
 
 if(!empty($_POST)){
     $nombre_usuario = isset($_POST["usuario"])? $_POST["usuario"]: '';
@@ -36,14 +64,23 @@ if(!empty($_POST)){
     if ($usuario === false){
         $errores.='La combinacion usuario-contraseña es incorrecta<br/>';
     }else{
-        $_SESSION['usuario']=$usuario['nombre_usuario'];
-        $_SESSION['iniciado']=true;
-        header("Location: ../GestiondeFranquicias/principal_gestion_franquicias.php");
-        exit;
+        if ($cargo==='Administrador'){
+            $_SESSION['usuario']=$usuario['nombre_usuario'];
+            $_SESSION['iniciado']=true;
+            header("Location: ../GestiondeFranquicias/principal_gestion_franquicias.php");
+            exit;
+
+        }elseif ($cargo==='Admin_Fran'){
+            $_SESSION['usuario']=$usuario['nombre_usuario'];
+            $_SESSION['iniciado']=true;
+            header("Location: ../GestiondeFranquicias/nuevaCiudad.php");
+            exit;
+        }
     }
 
 
 }
+
 
 
 ?>
