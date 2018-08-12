@@ -27,7 +27,7 @@ $resultado = $pdo->query("Select ciudad from ciudad")
             </div>
             <div class="sec">
                 <label>Nombre de la Ciudad</label>
-                <input type="text" required placeholder="Nombre de la Ciudad" name="nombre_ciudad">
+                <input type="text"  name="nombre_ciudad">
             </div>
             <div class="sec">
                 <div class="msj">

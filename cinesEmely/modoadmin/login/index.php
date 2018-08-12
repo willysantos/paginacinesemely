@@ -64,13 +64,13 @@ if (!empty($_POST)){
             border-radius: 10px;
             box-shadow: 2px 1px 1px #616161;
         }
-        .seccion{
+        .sec{
             padding: 10px 0 10px 0;
             display: flex;
             flex-direction: column;
         }
 
-        .seccion input{
+        .sec input{
             padding: 5px;
             border:0;
             border-bottom: 2px solid #87bdff;
@@ -78,7 +78,7 @@ if (!empty($_POST)){
 
         }
 
-        .seccion label{
+        .sec label{
             font-weight: bold;
 
         }
@@ -91,19 +91,19 @@ if (!empty($_POST)){
 <a href="../GestiondeFranquicias/principal_gestion_franquicias.php">aqui</a>
 
 <form action="" method="post" id="form-registro">
-    <div class="seccion">
+    <div class="sec">
         <label for="usuario">Nombre de Usuario</label>
         <input type="text" name="usuario" id="usuario">
 
     </div>
 
-    <div class="seccion">
+    <div class="sec">
         <label for="contrasena">Contrasena</label>
         <input type="password" name="contrasena" id="contrasena">
 
     </div>
 
-    <div class="seccion">
+    <div class="sec">
         <label for="confirmar_contrasena">Confirmar Contrasena</label>
         <input type="password" name="confirmar_contrasena" id="confirmar_contrasena">
 

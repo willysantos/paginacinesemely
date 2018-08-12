@@ -2,7 +2,7 @@
 require '../conexion/conexion.php';
 $resultado = $pdo->query("Select nombre_clasificado, edad_minima from clasificados");
 ?>
-<link rel="stylesheet" href="../pre/tab.css">
+<link rel="stylesheet" href="CSSPeliculas/EstilosPelicula.css">
 <div>
     <?php require '../menus/menu_lado.php'; ?>
 </div>
@@ -17,11 +17,11 @@ $resultado = $pdo->query("Select nombre_clasificado, edad_minima from clasificad
             </div>
             <div class="sec">
                 <label>Nombre del Clasificado</label>
-                <input type="text" required placeholder="Nombre del clasificado" name="nombre_clasificado">
+                <input type="text"  name="nombre_clasificado">
             </div>
             <div class="sec">
                 <label>Edad Minima del Clasificado</label>
-                <input type="text" required placeholder="Edad Minima" name="edad_minima">
+                <input type="text"  name="edad_minima">
             </div>
             <div class="sec">
                 <button type="submit" class="btn btn-success" name="boton_guardar_clasificado">Agregar Clasificado</button>

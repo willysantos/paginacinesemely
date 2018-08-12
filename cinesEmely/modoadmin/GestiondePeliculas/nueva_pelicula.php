@@ -4,21 +4,24 @@ $genero=$pdo->query("select id_genero, genero_pelicula from genero_pelicula");
 $audio = $pdo->query("select id_audio, audio_pelicula from audio_pelicula");
 $clasificado = $pdo->query("select id_clasificado, nombre_clasificado from clasificados");
 ?>
-<link rel="stylesheet" href="../pre/newPre.css">
+<link rel="stylesheet" href="CSSPeliculas/EstilosPelicula.css">
 <div>
     <?php require '../menus/menu_lado.php'; ?>
 </div>
 <body>
+<div class="pos">
+    <div id="box">
+
 <form id="form" action="save_movie.php" method="post" enctype="multipart/form-data" >
     <div class="container">
-        <div class="seccion">
+        <div class="sec">
             <h2>Registro de una nueva Pelicula</h2>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Nombre de la Pelicula</label>
-            <input type="text" required placeholder="Nombre de la Pelicula" name="nombre_pelicula">
+            <input type="text"  name="nombre_pelicula">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Seleccion de genero</label>
             <select name="select_genero" id="select_genero">
                 <?php foreach ($genero as $row):?>
@@ -26,7 +29,7 @@ $clasificado = $pdo->query("select id_clasificado, nombre_clasificado from clasi
                 <?php endforeach;?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Seleccion de Audio</label>
             <select name="select_audio" id="select_audio">
                 <?php foreach ($audio as $row):?>
@@ -34,7 +37,7 @@ $clasificado = $pdo->query("select id_clasificado, nombre_clasificado from clasi
                 <?php endforeach;?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Seleccion de Clasificados</label>
             <select name="select_clasificado" id="select_clasificado">
                 <?php foreach ($clasificado as $row):?>
@@ -42,23 +45,27 @@ $clasificado = $pdo->query("select id_clasificado, nombre_clasificado from clasi
                 <?php endforeach;?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Descripcion Corta</label>
-            <input type="text" required placeholder="Descripcion" name="descripcion">
+            <input type="text"  name="descripcion">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Fecha de Registro</label>
-            <input type="date" required placeholder="Descripcion" name="fecha_de_registro">
+            <input type="date"  name="fecha_de_registro">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Foto</label>
             <br>
-            <input type="file" accept="image/*" id="foto" required placeholder="Descripcion" name="foto">
+            <input type="file" accept="image/*" id="foto" name="foto">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <button type="submit" class="btn btn-success" name="boton_guardar_pelicula">Agregar Pelicula</button>
         </div>
     </div>
 </form>
+
+    </div>
+</div>
+
 </body>
 

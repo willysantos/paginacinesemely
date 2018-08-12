@@ -6,29 +6,32 @@ $franquicia = $pdo->query("select ciudad.ciudad, franquicias.id_franquicia, fran
 <div>
     <?php require'../menus/menu_lado.php' ?>
 </div>
-<link rel="stylesheet" href="../pre/newPre.css">
+<link rel="stylesheet" href="../GestiondePeliculas/CSSPeliculas/EstilosPelicula.css">
 <body>
+<div class="pos">
+    <div id="box">
+
 <form id="form" action="save_usuario.php" method="post" >
     <div class="container">
-        <div class="seccion">
+        <div class="sec">
             <h4>Registro de Nuevo Usuario</h4>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Nombre de Usuario</label>
-            <input type="text" required placeholder="Nombre de Usuario" name="usuario">
+            <input type="text"  name="usuario">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Contraseña</label>
-            <input type="text" required placeholder="Contraseña" name="contrasena">
+            <input type="text"  name="contrasena">
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Tipo de Usuario</label>
             <select name="select_tipo" id="select_tipo">
                 <option value="Administrador_Franquicia">Administrador de Franquicia</option>
                 <option value="Ventas">Ventas</option>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Franquicia de Asignacion</label>
             <select name="select_franquicia" id="select_franquicia">
             <?php foreach ($franquicia as $row):?>
@@ -36,9 +39,12 @@ $franquicia = $pdo->query("select ciudad.ciudad, franquicias.id_franquicia, fran
             <?php endforeach;?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <button type="submit" class="btn btn-success" name="boton_guardar_usuario">Agregar Usuario</button>
         </div>
     </div>
 </form>
+
+    </div>
+</div>
 </body>

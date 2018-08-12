@@ -52,24 +52,39 @@ body{
     font-weight:900;
 
 }
+/*esta parte fue agregada para nueva_pelicula.php*/
+.sec h2{
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+    /*padding: 0;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #005a88;
+    width: 100%;
+    font-weight:900;
+
+}
+
+
+.sec select{
+    border-radius: 2px;
+    background: #eee;
+    color: #005a88;
+}
+
+.sec select:focus{
+    outline: none;
+}
+
+/*esta parte fue agregada para nueva_pelicula.php*/
 .sec {
     padding: 10px 0 10px 0;
     display: flex;
     flex-direction: column;
 
 }
-.msj{
-    /*padding: 20px;*/
-    height: 15px;
-    color:#4CAF50;
-    border-radius: 2px;
-    margin-bottom: 20px;
-    font-size: 20px;
 
-    /*background: #4caf50;*/
-    /*border: 1px solid #4c994d;*/
-
-}
 
 .sec button[type='submit']{
     padding: 10px;
@@ -95,7 +110,7 @@ body{
     width: 100%;
     background-color: #eee;
     outline: none;
-
+    color: #004773;
 }
 
 .sec label{
@@ -105,18 +120,15 @@ body{
     color: #005a88;
     font-size: 20px;
 }
-/*table{*/
 
-    /*width: 100%;*/
-    /*text-align: center;*/
-    /*background-color: #FFFFFF;*/
-    /*border-collapse: collapse;*/
-/*border-radius: 5px;*/
-/*}*/
 th, td{
     padding: 10px;
 }
 thead{
     background-color:#005a88;
     color: white;
+}
+
+th{
+    font-size: 25px;
 }

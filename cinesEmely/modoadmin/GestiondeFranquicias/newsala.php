@@ -9,6 +9,13 @@ from franquicias".
 <div>
     <?php require '../menus/menu_lado.php';?>
 </div>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CCSfranquicias/SALA.css">
+</head>
+
+<body>
 <div>
     <form action="savesala.php" method="post">
         <table border="1">
@@ -39,3 +46,5 @@ from franquicias".
         </table>
     </form>
 </div>
+</body>
+</html>
