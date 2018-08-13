@@ -18,7 +18,21 @@ body{
     max-width: 500px;
     margin: auto;
     padding: 10% 5% 5% 5%;
+
 }
+
+h1{
+  text-align: center;
+  font-size: 28px;
+  color: #2f91bf;
+  font-family: "Roboto",Arial,sans-serif,Helvetica;}
+
+
+h2{
+  text-align: center;
+  font-size: 18px;
+  color: #2f91bf;
+  font-family: "Roboto",Arial,sans-serif,Helvetica;}
 
 form{
     width: 100%;
@@ -28,13 +42,14 @@ form{
     overflow: hidden;
     box-shadow: 0 0 3px grey;
     border-top: 4px solid #536DFE;
+
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form textarea{
-    border: 1px solid #536DFE;
+    border: 1px solid #2f91bf;
     border-radius: 2px;
     padding: 16px;
     width: 100%;
@@ -78,15 +93,22 @@ form div{
     color: #a94442;
 }
 
+select{
+  text-align: center;
+  font-size: 15px;
+  color: #2f91bf;
+  font-family: "Roboto",Arial,sans-serif,Helvetica;}
+
 
 .btn-primary,
 form input[type="submit"]{
     padding: 15px;
-    background: #005a88;
+    margin: 3px;
+    background: #2f91bf;
     color: #f5f5f5;
     font-size: 1em;
     font-family: "Roboto",Arial,sans-serif,Helvetica;
-    border-radius: 2px;
+    border-radius: 3px;
     border: none;
     float: right;
     cursor: pointer;

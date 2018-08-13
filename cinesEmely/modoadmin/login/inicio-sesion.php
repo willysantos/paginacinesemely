@@ -8,7 +8,7 @@
 session_start();
 
 //require_once "../conexion/conexion.php";
-require '../../../../CE/cinesEmely/modoadmin/conexion/conexion.php';
+require '../../../../paginacinesemely/cinesEmely/modoadmin/conexion/conexion.php';
 
 
 
@@ -70,8 +70,11 @@ if(!empty($_POST)){
 <body>
 <div class="wrap">
     <form action="" method="post">
-
         <!--    <label for="usuario">Nombre Usuario</label>-->
+           <h1>Cines Emely</h1>
+           <h2>Iniciar Sesión</h2>
+        <br>
+
         <input type="text"  name="usuario" id="usuario" placeholder="Nombre Usuario">
         <br>
 
@@ -79,6 +82,7 @@ if(!empty($_POST)){
         <!--    <label for="contrasena"> Contraseña</label>-->
         <input type="password"  name="contrasena" id="contrasena" placeholder="Contraseña">
         <br>
+
 
         <select name="select_cargo">
             <option value="Administrador">Administrador</option>
@@ -93,7 +97,7 @@ if(!empty($_POST)){
             </div>
         <?php endif; ?>
 
-
+        <img src="Login.png" width="190px">
         <input type="submit" value="Iniciar Sesion">
 
 
