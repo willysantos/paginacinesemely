@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="cssMenu2.css">
 </head>
 
-<img src="logmenu.jpeg" width="1350" height="143">
+<img src="logout.jpeg" width="1350" height="143">
 <button class="tablink" onclick="openPage('Home', this, '#2F91BF')">Proximos Estrenos</button>
 <button class="tablink" onclick="openPage('News', this, '#2F91BF')" id="defaultOpen">Peliculas Hoy</button>
 <button class="tablink" onclick="openPage('Contact', this, '#2F91BF')">Cines Cercanos</button>
