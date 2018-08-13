@@ -50,38 +50,33 @@ form textarea{
 /*form input[type="email"]:focus,*/
 /*form input[type="password"]:focus,*/
 /*form textarea:focus{*/
-    /*border: 2px solid #3f51b5;*/
-    /*padding: 14px;*/
+/*border: 2px solid #3f51b5;*/
+/*padding: 14px;*/
 /*}*/
 
 
 /*form textarea{*/
-    /*max-width: 100%;*/
-    /*min-width: 100%;*/
-    /*max-height: 300px;*/
-    /*min-height: 100px;*/
+/*max-width: 100%;*/
+/*min-width: 100%;*/
+/*max-height: 300px;*/
+/*min-height: 100px;*/
 
 /*}*/
 
-/*.alert{*/
-    /*padding: 1em;*/
-    /*color:#fff;*/
-    /*border-radius: 2px;*/
-    /*margin-bottom: 20px;*/
-    /*font-size: 12px;*/
-/*}*/
+form div{
+    padding: 1em;
+    color:#fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
 
-/*.alert.error{*/
-    /*background: #f2dede;*/
-    /*border: 1px solid #a94442;*/
-    /*color: #a94442;*/
-/*}*/
+form div{
 
-/*.alert.success{*/
-    /*background: #4caf50;*/
-    /*border: 1px solid #4c994d;*/
-/*}*/
-
+    background: #f2dede;
+    border: 1px solid #a94442;
+    color: #a94442;
+}
 
 
 .btn-primary,
@@ -96,6 +91,7 @@ form input[type="submit"]{
     float: right;
     cursor: pointer;
 }
+
 
 form input[type="submit"]:hover{
     background: #00719f;

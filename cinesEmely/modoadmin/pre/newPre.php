@@ -9,7 +9,7 @@ $franquicia=$pdo->query("select ciudad.ciudad, franquicias.id_franquicia, franqu
 ?>
 <script src="jquery-3.3.1.min.js">
 </script >
-<link rel="stylesheet" href="newPre.css">
+
 <script>
     function cargarlocalidad(val){
         $.ajax({
@@ -25,13 +25,20 @@ $franquicia=$pdo->query("select ciudad.ciudad, franquicias.id_franquicia, franqu
 <div>
     <?php require '../menus/menu_lado.php';?>
 </div>
-<body>
+
+<head>
+    <link rel="stylesheet" href="../GestiondePeliculas/CSSPeliculas/EstilosPelicula.css">
+</head>
+
+    <body>
+    <div class="pos">
+        <div id="box">
 <form id="form" action="save_pre.php" method="post" >
     <div class="container">
-        <div class="seccion">
+        <div class="sec">
             <h2>Registrando una nueva Pre</h2>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Seleccione la Pelicula</label>
             <select name="select_pelicula" id="select_pelicula">
                 <?php foreach ($pelicula as $row): ?>
@@ -40,7 +47,7 @@ $franquicia=$pdo->query("select ciudad.ciudad, franquicias.id_franquicia, franqu
                 <?php endforeach; ?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Seleccione Ciudad</label>
             <select name="select_ciudad" id="select_ciudad" onchange="cargarlocalidad(this.value)">
                 <?php echo '<option>-- Seleccione una Opcion --</option>';?>
@@ -49,19 +56,22 @@ $franquicia=$pdo->query("select ciudad.ciudad, franquicias.id_franquicia, franqu
                 <?php endforeach;?>
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label >Seleccione Franquicia</label>
             <select name="select_franquicia" id="select_franquicia">
             </select>
         </div>
-        <div class="seccion">
+        <div class="sec">
             <label>Fecha de Estreno Esperada</label>
             <input type="date" name="fecha" >
         </div>
-        <div class="seccion">
+        <div class="sec">
             <button type="submit" name="boton_guardar_pre">Registrar Pre</button>
         </div>
     </div>
 </form>
-</body>
 
+        </div>
+    </div>
+
+    </body>

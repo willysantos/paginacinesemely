@@ -5,7 +5,7 @@ $resultado = $pdo->query("Select audio_pelicula from audio_pelicula");
 <div>
     <?php require '../menus/menu_lado.php'; ?>
 </div>
-<link rel="stylesheet" href="../pre/tab.css">
+<link rel="stylesheet" href="CSSPeliculas/EstilosPelicula.css">
 <body>
 <div class="pos">
     <div id="box">
@@ -18,7 +18,7 @@ $resultado = $pdo->query("Select audio_pelicula from audio_pelicula");
             <div class="sec">
                 <label>Nombre del Audio</label>
                 <br>
-                <input type="text" required placeholder="Nombre del audio" name="nombre_audio">
+                <input type="text"  name="nombre_audio">
             </div>
             <div class="sec">
                 <button type="submit" class="btn btn-success" name="boton_guardar_audio">Agregar Audio</button>

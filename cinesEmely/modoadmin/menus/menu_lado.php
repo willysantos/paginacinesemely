@@ -106,6 +106,10 @@
         <a href="../GestiondeUsuarios/principal_gestion_usuarios.php">Usuarios</a>
         <a href="../GestiondeUsuarios/new_usuario.php">Nuevo Usuario</a>
     </div>
+    <button class="accordion">Sesion</button>
+    <div class="panel">
+        <a href="../login/cerrar-sesion.php">cerrar sesion</a>
+    </div>
     <div class="main">
 
     </div>

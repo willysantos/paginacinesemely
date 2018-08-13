@@ -51,8 +51,9 @@
 </div>
 
 <div id="News" class="tabcontent">
-    <h3 style="background-color: black">News</h3>
-    <p style="text-decoration-color: black">Some news this fine day!</p>
+    <div>
+        <?php require '../PeliculasHoy/Cartelera.php'?>
+    </div>
 </div>
 
 <div id="Contact" class="tabcontent">

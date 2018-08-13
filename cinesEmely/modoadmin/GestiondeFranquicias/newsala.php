@@ -10,6 +10,13 @@ $consulta2=$pdo->query("select * from tipo_sala");
 <div>
     <?php require '../menus/menu_lado.php';?>
 </div>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CCSfranquicias/SALA.css">
+</head>
+
+<body>
 <div>
     <form action="savesala.php" method="post">
         <table border="1">
@@ -40,3 +47,5 @@ $consulta2=$pdo->query("select * from tipo_sala");
         </table>
     </form>
 </div>
+</body>
+</html>

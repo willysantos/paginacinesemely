@@ -1,0 +1,13 @@
+.cartel{
+    background: #ebebeb;
+    height: 300px;
+    width: 80%;
+    padding: 0 0 0 0;
+    margin: 3% 10% 3% 10%;
+}
+
+.cartel .image {
+    width: 25%;
+    height: 75%;
+    padding: 3% 0 30% 5%;
+}

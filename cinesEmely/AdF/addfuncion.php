@@ -14,14 +14,15 @@ $consulta2=$pdo->query("select pre.id_preparacion, pelicula.nombre_pelicula, fra
     " inner join franquicias on franquicias.id_franquicia = pre.id_franquicia".
     " where franquicias.id_franquicia = {$fran}");
 
-$sala=$pdo->query("select *from sala".
+$sala=$pdo->query("select sala.id_sala, sala.nombre_sala, tipo_sala.nombre from sala".
+    " inner join tipo_sala on tipo_sala.id_tipo_sala = sala.id_tipodesala".
 " where sala.id_franquicia = {$fran}");
 
 ?>
 <div>
     <?php require '../modoadmin/menus/menuAdf_aparencia.php';?>
 </div>
-<form action="saveaddfuncion" method="post">
+<form action="saveaddfuncion.php" method="post">
     <div>
         <h4>Agregando una nueva Funcion</h4>
     </div>
@@ -46,7 +47,8 @@ $sala=$pdo->query("select *from sala".
         <select name="select_sala" id="select_sala">
             <option value="0">Seleccion una sala</option>
             <?php foreach ($sala as $s): ?>
-                <option value="<?php echo $a['id_sala'] ?>"><?php echo $s['nombre_sala'] ?></option>
+                <option value="<?php echo $a['id_sala'] ?>"><?php echo $s['nombre_sala'] ?>---
+                    <?php echo $s['nombre'] ?></option>
             <?php endforeach; ?>
         </select>
     </div>
@@ -57,6 +59,10 @@ $sala=$pdo->query("select *from sala".
     <div>
         <label >Hora de Funcion</label>
         <input type="time" name="time">
+    </div>
+    <div>
+        <label >Precio</label>
+        <input type="text" value="L." name="precio">
     </div>
     <div>
         <input type="submit" value="Agregar Funcion">
