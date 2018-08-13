@@ -11,7 +11,7 @@ $consulta2=$pdo->query("select sala.nombre_sala from sala".
 require '../menus/menu_lado.php';
 ?>
 </div>
-<link rel="stylesheet" href="franquicias.css">
+
 <script src="../pre/jquery-3.3.1.min.js">
 </script >
 <script>
@@ -26,6 +26,14 @@ require '../menus/menu_lado.php';
         })
     }
 </script>
+<head>
+    <style>
+        form td {
+            background: #005a88;
+        }
+    </style>
+</head>
+
 <body>
 <div id="contenedor">
     <div class="formufra">
@@ -49,7 +57,7 @@ require '../menus/menu_lado.php';
 </div>
 </body>
 <?php
-session_start();
+//session_start();
 
 $iniciado = isset($_SESSION['iniciado'])? $_SESSION['iniciado']:false;
 

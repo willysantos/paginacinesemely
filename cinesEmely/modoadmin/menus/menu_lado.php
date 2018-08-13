@@ -16,7 +16,7 @@
             z-index: 1; /* Stay on top */
             top: 0; /* Stay at the top */
             left: 0;
-            background-color: #005a88; /* Black */
+            background-color: #cecece; /* Black */
             overflow-x: hidden; /* Disable horizontal scroll */
             padding-top: 20px;
         }
@@ -26,16 +26,18 @@
         .sidenav a {
             padding: 6px 8px 6px 16px;
             text-decoration: none;
-            font-size: 25px;
+            font-size: 20px;
             color: #616161;
             display: block;
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
         }
 /*///////////////////////////////////////////////////*/
         /* When you mouse over the navigation links, change their color */
 /*/////////////////////////////////////////////////////*/
         .sidenav a:hover {
-            color: #37a0e1;
-            background: #0074a5;
+            color: #004773;
+            font-size: 23px;
+            /*background: #0074a5;*/
         }
 /*///////////////////////////////////*/
         /* Style page content */
@@ -50,8 +52,8 @@
             /*.sidenav a {font-size: 18px;}*/
         /*}*/
         .accordion {
-            background-color: #005a88;
-            color: #444;
+            background-color: #cecece;
+            color: #005a88;
             cursor: pointer;
             padding: 18px;
             width: 100%;
@@ -59,11 +61,13 @@
             border: none;
             outline: none;
             transition: 0.4s;
+            font-size: 20px;
         }
 
         /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
         .active, .accordion:hover {
-            background-color: #0089bd;
+            background-color: #005a88;
+            color: white;
         }
 
         /* Style the accordion panel. Note: hidden by default */
@@ -72,6 +76,7 @@
             background-color: #d7d7d7;
             display: none;
             overflow: hidden;
+            font-size: 15px;
 
         }
     </style>
@@ -79,7 +84,7 @@
 <body>
 
 <div id="mySidenav" class="sidenav">
-    <button class="accordion">*Franquicias</button>
+    <button class="accordion">FRANQUICIA</button>
     <div class="panel">
         <a href="../GestiondeFranquicias/principal_gestion_franquicias.php">Franquicias</a>
         <a href="../GestiondeFranquicias/nuevaCiudad.php">Nueva Ciudad</a>
@@ -88,7 +93,7 @@
         <a href="../GestiondeFranquicias/tiposdesala.php">Tipos de Salas</a>
         <a href="../GestiondeFranquicias/Asientos.php">Agregar Asientos</a>
     </div>
-    <button class="accordion">*Peliculas</button>
+    <button class="accordion">PELICULAS</button>
     <div class="panel">
         <a href="../GestiondePeliculas/principal_peliculas.php">Peliculas</a>
         <a href="../GestiondePeliculas/new_genero.php">Generos</a>
@@ -96,17 +101,17 @@
         <a href="../GestiondePeliculas/audio.php">Audios</a>
         <a href="../GestiondePeliculas/nueva_pelicula.php">Nueva Pelicula</a>
     </div>
-    <button class="accordion">*Pre Lanzamiento</button>
+    <button class="accordion">PROXIMOS</button>
     <div class="panel">
-        <a href="../pre/pre.php">PRE'S</a>
-        <a href="../pre/newPre.php">Nuevo Pre</a>
+        <a href="../pre/pre.php">PROX'S</a>
+        <a href="../pre/newPre.php">Nuevo Pro</a>
     </div>
-    <button class="accordion">*Usuarios</button>
+    <button class="accordion">USUARIOS</button>
     <div class="panel">
         <a href="../GestiondeUsuarios/principal_gestion_usuarios.php">Usuarios</a>
         <a href="../GestiondeUsuarios/new_usuario.php">Nuevo Usuario</a>
     </div>
-    <button class="accordion">Sesion</button>
+    <button class="accordion">SESION</button>
     <div class="panel">
         <a href="../login/cerrar-sesion.php">cerrar sesion</a>
     </div>

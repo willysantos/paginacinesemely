@@ -29,12 +29,15 @@ $consulta=$pdo->query("select *from ciudad");
 <div>
     <?php require '../modoadmin/menus/menuAdF.php'?>
 </div>
+<head>
+    <link rel="stylesheet" href="CSSaddFranquicias/addFunc.css">
+</head>
 <body>
 <div>
     <div>
         <form action="" method="post">
             <select name="select_ciudad" id="select_ciudad" onchange="cargarfran(this.value)">
-                <?php echo '<option>-- Seleccione una Ciudad --</option>';?>
+                <?php echo '<option>Seleccione una Ciudad </option>';?>
                 <?php foreach ($consulta as $c): ?>
                     <option value="<?php echo $c['id_ciudad']?>"><?php echo $c['ciudad']?></option>
                 <?php endforeach;?>
@@ -43,9 +46,7 @@ $consulta=$pdo->query("select *from ciudad");
 
             </select>
         </form>
-        <div id="cargarpre">
 
-        </div>
     </div>
 </div>
 </body>

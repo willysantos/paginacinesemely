@@ -5,10 +5,11 @@
 </head>
 
 <img src="logmenu.jpeg" width="1350" height="143">
-<button class="tablink" onclick="openPage('Home', this, '#0089bd')">Proximos Estrenos</button>
-<button class="tablink" onclick="openPage('News', this, '#0089bd')" id="defaultOpen">Peliculas Hoy</button>
-<button class="tablink" onclick="openPage('Contact', this, '#0089bd')">Cines Cercanos</button>
-<button class="tablink" ><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>
+<button class="tablink" onclick="openPage('Home', this, '#2F91BF')">Proximos Estrenos</button>
+<button class="tablink" onclick="openPage('News', this, '#2F91BF')" id="defaultOpen">Peliculas Hoy</button>
+<button class="tablink" onclick="openPage('Contact', this, '#2F91BF')">Cines Cercanos</button>
+<button class="tablink" onclick="openPage('Sesion',this,'#2f91bf')"><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>
+<!--<button class="tablink" onclick="openPage('Sesion',this,'#2f91bf')"><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>-->
 
 <div id="Home" class="tabcontent">
     <h3 style="background-color: black"></h3>
@@ -28,13 +29,15 @@
     </div>
 </div>
 
-<!--<div id="About" class="tabcontent">-->
-<!--    <h3></h3>-->
-<!--<!--    <div>-->-->
-<!--<!--        -->--><?php
-////        require '../../modoadmin/login/inicio-sesion.php'?>
-<!--<!--    </div>-->-->
-<!--</div>-->
+
+<div id="About" class="tabcontent">
+
+    <div>
+        <?php
+        require '../../modoadmin/login/inicio-sesion.php'?>
+    </div>
+</div>
+
 <script>
     function openPage(pageName, elmnt, color) {
         // Hide all elements with class="tabcontent" by default */
