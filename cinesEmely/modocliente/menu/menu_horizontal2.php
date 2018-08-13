@@ -1,45 +1,10 @@
-<style rel="stylesheet">
-    body, html {
-        height: 100%;
-        margin: 0;
-        font-family: Arial;
-    }
 
-    /* Style tab links */
-    .tablink {
-        background-color: #555;
-        color: white;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        font-size: 17px;
-        width: 25%;
-    }
 
-    .tablink:hover {
-        background-color: #777;
-    }
+<head>
+    <link rel="stylesheet" href="cssMenu2.css">
+</head>
 
-    /* Style the tab content (and add height:100% for full page content) */
-    .tabcontent {
-        color: white;
-        display: none;
-        padding: 100px 20px;
-        height: 100%;
-    }
-    .tablink a{
-        text-decoration-color: #FFFFFF;
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
-    #Home {background-color: #0089bd;}
-    #News {background-color: #FFFFFF;}
-    #Contact {background-color: #FFFFFF;}
-    #About {background-color: #FFFFFF;}
-</style>
+<img src="logmenu.jpeg" width="1350" height="143">
 <button class="tablink" onclick="openPage('Home', this, '#0089bd')">Proximos Estrenos</button>
 <button class="tablink" onclick="openPage('News', this, '#0089bd')" id="defaultOpen">Peliculas Hoy</button>
 <button class="tablink" onclick="openPage('Contact', this, '#0089bd')">Cines Cercanos</button>
