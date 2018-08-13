@@ -2,33 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d59d9be-a385-42b5-840e-3251282efb10" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/NuevaCiudad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/NuevaFranquicia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/SALA.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/CSSPeliculas/EstilosPelicula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/login/cerrar-sesion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/AdF/addfuncion.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/AdF/addfuncion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newFranquicia.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newFranquicia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newsala.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newsala.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/nuevaCiudad.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/nuevaCiudad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/AdF/vertanda.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/AdF/vertanda.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/audio.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/audio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/clasificados.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/clasificados.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/fotos/a.la.deriva.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/new_genero.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/new_genero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesala.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesala.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/movie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/nueva_pelicula.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/nueva_pelicula.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/new_usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/new_usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/login/iniSession.css" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/login/iniSession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/save_movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/save_movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/principal_gestion_usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/principal_gestion_usuarios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/login/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/login/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/menus/menu_lado.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/menus/menu_lado.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.css" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinesEmely/modoadmin/principal/principaladmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modoadmin/principal/principaladmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinesEmely/modocliente/menu/cssMenu2.css" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modocliente/menu/cssMenu2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php" beforeDir="false" afterPath="$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,38 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cartelera.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="26">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addfuncion.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/addfuncion.php">
+      <file leaf-file-name="inicio-sesion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="49" column="94" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saveaddfuncion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save_movie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/save_movie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="234">
+              <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -92,16 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/UpdateUsuario.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/save_upda_fran.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/save_upda_usu.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesalas.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/save_tipo_sala.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesala.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newsala.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/savesala.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/sala.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/franquicia.css" />
         <option value="$PROJECT_DIR$/cinesEmely/pruebas/pppp" />
         <option value="$PROJECT_DIR$/cinesEmely/pruebas/pp" />
@@ -113,7 +76,6 @@
         <option value="$PROJECT_DIR$/cinesEmely/AdF/adf.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/menus/menuAdF.php" />
         <option value="$PROJECT_DIR$/cinesEmely/AdF/cargarfran.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php" />
         <option value="$PROJECT_DIR$/cinesEmely/AdF/cargarpre.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/menus/menuAdf_aparencia.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/save_asientos.php" />
@@ -129,14 +91,31 @@
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/login/verlogin.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/conexion/conexion.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/get_localidad.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modoadmin/login/cerrar-sesion.php" />
-        <option value="$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/cartelera.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/gettandas.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/proximos.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/nueva_pelicula.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/save_movie.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesala.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/AddAsiento.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/principal_gestion_usuarios.php" />
         <option value="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/movie.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/prox/proximos.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/cartelera1.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/menu/cssMenu2.css" />
+        <option value="$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php" />
         <option value="$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php" />
+        <option value="E:/CE/cinesEmely/AdF/addfuncion.php" />
         <option value="$PROJECT_DIR$/cinesEmely/AdF/addfuncion.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/AdF/vertanda.php" />
+        <option value="$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php" />
       </list>
     </option>
   </component>
@@ -152,11 +131,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="222" />
-    <option name="y" value="222" />
-    <option name="width" value="1600" />
-    <option name="height" value="710" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -179,27 +158,14 @@
               <item name="CE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CE" type="462c0819:PsiDirectoryNode" />
               <item name="cinesEmely" type="462c0819:PsiDirectoryNode" />
-              <item name="AdF" type="462c0819:PsiDirectoryNode" />
+              <item name="modoadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CE" type="462c0819:PsiDirectoryNode" />
               <item name="cinesEmely" type="462c0819:PsiDirectoryNode" />
-              <item name="modocliente" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CE" type="462c0819:PsiDirectoryNode" />
-              <item name="cinesEmely" type="462c0819:PsiDirectoryNode" />
-              <item name="modocliente" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CE" type="462c0819:PsiDirectoryNode" />
-              <item name="cinesEmely" type="462c0819:PsiDirectoryNode" />
-              <item name="modocliente" type="462c0819:PsiDirectoryNode" />
-              <item name="PeliculasHoy" type="462c0819:PsiDirectoryNode" />
+              <item name="modoadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,12 +189,135 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CE\cinesEmely\modocliente\menu" />
+      <recent name="C:\xampp\htdocs\CE\cinesEmely\modocliente\prox" />
       <recent name="C:\xampp\htdocs\CE\cinesEmely\pruebas" />
       <recent name="C:\xampp\htdocs\CE\cinesEmely\modocliente\pres" />
-      <recent name="C:\xampp\htdocs\CE\cinesEmely\modocliente\menu" />
       <recent name="C:\xampp\htdocs\CE\cinesEmely\modocliente\logo" />
-      <recent name="C:\xampp\htdocs\CE" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/AdF/cargarfran.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/login/iniSession.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/menus/menuAdF.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/menus/menu_lado.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/AdF/CSSaddFranquicias/addFunc.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/AdF/cerrar-sesion.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modoadmin/login/Login.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modocliente/menu/cssMenu2.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cinesEmely/modocliente/menu/logout.jpeg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,7 +343,7 @@
       <updated>1533767528401</updated>
       <workItem from="1533767529615" duration="5310000" />
       <workItem from="1533779072112" duration="66135000" />
-      <workItem from="1534130804047" duration="480000" />
+      <workItem from="1534130804047" duration="50267000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego a las 2:27 am">
       <created>1533803266958</created>
@@ -309,21 +398,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71925000" />
+    <option name="totallyTimeSpent" value="121712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32896653" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,9 +425,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,115 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newsala.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/savesala.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/sala.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/nueva_pelicula.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/pruebas/pppp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/ventas/ventas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/vertanda.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/menus/MenuVentas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/adf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/new_usuario.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/getfranquicia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/new_genero.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/guardar_franquicia.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/pre.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/newFranquicia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/menus/menuAdF.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="113" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/menus/menuAdf_aparencia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -499,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/pres/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/pres/cines-cercanos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -520,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/cc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/pruebas/pp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -534,28 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/conexion/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/login/login.php" />
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/login/index.php" />
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/nuevaCiudad.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -564,20 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -598,34 +530,10 @@
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/NuevaCiudad.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -636,31 +544,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/cargarpre.php">
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/conexion/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="104">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/carteStyle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/cartelera.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/newPre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/gettandas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/Prox.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/nueva_pelicula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/save_movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="234">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php">
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/tiposdesala.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="182">
+          <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/NuevaFranquicia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/principal_gestion_franquicias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="e#1640#1658#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeUsuarios/principal_gestion_usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/Asientos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/prox/proximos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/cc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/menus/menu_lado.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/menu/menu_horizontal2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/CinesCercanos/CinesCercanos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondeFranquicias/CCSfranquicias/AddAsiento.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="134" column="1" lean-forward="true" selection-start-line="110" selection-end-line="134" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/pre/pre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/GestiondePeliculas/movie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/cartelera1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/menu/cssMenu2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/CE/cinesEmely/AdF/addfunciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/CE/cinesEmely/AdF/addfuncion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/addfuncion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="49" column="94" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
+        <state relative-caret-position="358">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/cargarpre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/saveaddfuncion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/PeliculasHoy/Cartelera.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="107" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/vertanda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2080">
+          <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modocliente/pres/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding>
+            <marker date="1533887887916" expanded="true" signature="0:47" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/AdF/addfunciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cinesEmely/modoadmin/login/inicio-sesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
         </state>
       </provider>
     </entry>
