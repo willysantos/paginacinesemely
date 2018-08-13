@@ -87,6 +87,13 @@
     <div class="main">
 
     </div>
+    <button class="accordion">Sesion</button>
+    <div class="panel">
+        <a href="../AdF/cerrar-sesion.php">cerrar sesion</a>
+    </div>
+    <div class="main">
+
+    </div>
 
     <script>
 
