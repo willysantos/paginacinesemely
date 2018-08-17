@@ -26,7 +26,7 @@ $resultado = $pdo->query("Select audio_pelicula from audio_pelicula");
         </form>
     </div>
 <div id="main-container">
-    <table  border="1">
+    <table>
         <thead>
         <tr>
             <th>Audios</th>

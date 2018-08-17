@@ -25,20 +25,24 @@ body, html {
 }
 
 .tablink:hover {
-    background-color: #2F91BF;
+    /*background-color: #2F91BF;*/
     color: white;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-    color: white;
+    color: #005f81;
     display: none;
     padding: 100px 20px;
     height: 100%;
+    font-size: 18px;
+}
+.tabcontent h3{
+    padding: 10px;
+    text-align: center;
 }
 
-
-#Home {background-color: #0089bd;}
+#Home {background-color: #eeeeee;}
 #News {background-color: #FFFFFF;}
 #Contact {background-color: #FFFFFF;}
 #About {background-color: #FFFFFF;}

@@ -1,0 +1,100 @@
+body{
+    background-color: #eeeeee;
+}
+#seccion{
+    width: 100%;
+    height: 40%;
+    background-color: #eeeeee;
+    display: flex;
+    margin-top: 10px;
+
+}
+/* div de proximos lanzamientos*/
+#seccion2{
+    width: 70%;
+    height: 40%;
+    background-color: #cecece;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+#seccion2 .nombre{
+    text-align: center;
+
+}
+#seccion2 .link{
+    text-decoration: none;
+}
+.cartel{
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+}
+.cartel2{
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+
+}
+.imagen{
+    margin: 15px 2px 45px 70px;
+}
+.nombre{
+    width: 370px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.nombre h3{
+    text-align: center;
+    font-size: 25px;
+}
+.link a{
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: #005f81;
+    font-size: 35px;
+    text-align: center;
+}
+.datos{
+    width: 370px;
+
+}
+.tandas{
+    width: 370px;
+}
+.horario{
+    width: 370px;
+    font-size: 15px;
+}
+.horario h4{
+    text-align: center;
+}
+.nombre h4{
+    text-align: center;
+}
+.h41{
+    margin: 10%;
+    font-size: 30px;
+}
+.datos h4{
+    text-align: center;
+    font-size: 17px;
+}
+.h42{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.tandas h4{
+    text-align: center;
+    font-size: 17px;
+}
+.select_ciudad{
+
+}
+.h43{
+    margin: 18px;
+    font-size: 14px;
+}

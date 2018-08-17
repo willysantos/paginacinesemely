@@ -1,20 +1,30 @@
 body{
-    background-color: #444444;
+    background-color: #eeeeee;
     font-family: Arial;
 }
-/*#main-contai{*/
-    /*margin: 30px auto;*/
-    /*width: 60px;*/
-/*}*/
+#main-contai{
+    margin: 5px 55px 10px 15px;
+    width: 100%;
+
+}
 table{
     width: 100%;
     text-align: center;
     background-color: #FFFFFF;
     border-collapse: collapse;
+
 }
+
 th, td{
     padding: 10px;
 }
 thead{
+
     background-color: #005a88;
+}
+#main-contai thead tr th{
+    color: white;
+}
+tbody tr td{
+    color: #005a88;
 }

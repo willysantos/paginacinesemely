@@ -9,7 +9,7 @@
 session_start();
 
 session_destroy();
-header("Location: ../../../../CE/cinesEmely/modocliente/menu/menu_horizontal2.php");
+header("Location: ../../../../CE2/cinesEmely/modocliente/menu/menu_horizontal2.php");
 
 
 exit;

@@ -5,7 +5,7 @@ $resultado = $pdo->query("Select nombre from tipo_sala");
 <div>
     <?php require '../menus/menu_lado.php'; ?>
 </div>
-<link rel="stylesheet" href="../pre/tab.css">
+<link rel="stylesheet" href="../GestiondeFranquicias/CCSfranquicias/NuevaFranquicia.css">
 <body>
 <div class="pos">
     <div id="box">
@@ -26,7 +26,7 @@ $resultado = $pdo->query("Select nombre from tipo_sala");
         </form>
     </div>
     <div id="main-container">
-        <table  border="1">
+        <table>
             <thead>
             <tr>
                 <th>Tipos de Salas en CinesEmely</th>

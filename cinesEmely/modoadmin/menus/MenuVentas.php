@@ -5,7 +5,9 @@
     <!--    <link rel="stylesheet" href="menu_lado.css">-->
     <style>
         body{
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
             margin: 0px;
+
             margin-left: 180px;
         }
         /* The sidebar menu */
@@ -16,7 +18,7 @@
             z-index: 1; /* Stay on top */
             top: 0; /* Stay at the top */
             left: 0;
-            background-color: #005a88; /* Black */
+            background-color: #eeeeee; /* Black */
             overflow-x: hidden; /* Disable horizontal scroll */
             padding-top: 20px;
         }
@@ -34,7 +36,7 @@
         /* When you mouse over the navigation links, change their color */
         /*/////////////////////////////////////////////////////*/
         .sidenav a:hover {
-            color: #37a0e1;
+            color: #eeeeee;
             background: #0074a5;
         }
         /*///////////////////////////////////*/
@@ -50,8 +52,8 @@
         /*.sidenav a {font-size: 18px;}*/
         /*}*/
         .accordion {
-            background-color: #005a88;
-            color: #444;
+            background-color: #eeeeee;
+            color: #005a88;
             cursor: pointer;
             padding: 18px;
             width: 100%;
@@ -63,27 +65,36 @@
 
         /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
         .active, .accordion:hover {
-            background-color: #0089bd;
+            background-color: #cbcbcb;
+
         }
 
         /* Style the accordion panel. Note: hidden by default */
         .panel {
-            padding: 0 18px;
+            /*padding: 0 18px;*/
+            padding-left: -15px;
             background-color: #d7d7d7;
             display: none;
             overflow: hidden;
 
+        }
+        .logotipo{
+            width: 155px;
         }
     </style>
 </head>
 <body>
 
 <div id="mySidenav" class="sidenav">
+   <img src="../../modocliente/logo/logo.png" class="logotipo">
     <button class="accordion">*Ventas</button>
     <div class="panel">
         <a href="../../ventas/ventatiket.php">Registrar un Tiket</a>
         <a href="../../ventas/vertandas.php">Ver Tanda</a>
+
     </div>
+
+
 
     <div class="main">
 

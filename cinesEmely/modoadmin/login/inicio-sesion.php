@@ -8,7 +8,7 @@
 session_start();
 
 //require_once "../conexion/conexion.php";
-require '../../../../paginacinesemely/cinesEmely/modoadmin/conexion/conexion.php';
+require '../../../../CE/cinesEmely/modoadmin/conexion/conexion.php';
 
 
 
@@ -46,7 +46,7 @@ if(!empty($_POST)){
         }elseif ($cargo==='Admin_Fran'){
             $_SESSION['usuario']=$usuario['nombre_usuario'];
             $_SESSION['iniciado']=true;
-            header("Location: ../../Adf/adf.php");
+            header("Location: ../../../../CE/cinesEmely/AdF/adf.php");
             exit;
         }
     }

@@ -5,6 +5,7 @@
 <!--    <link rel="stylesheet" href="menu_lado.css">-->
     <style>
         body{
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
             margin: 0px;
             margin-left: 180px;
         }
@@ -16,7 +17,7 @@
             z-index: 1; /* Stay on top */
             top: 0; /* Stay at the top */
             left: 0;
-            background-color: #cecece; /* Black */
+            background-color: #eeeeee; /* Black */
             overflow-x: hidden; /* Disable horizontal scroll */
             padding-top: 20px;
         }
@@ -24,19 +25,25 @@
         /* The navigation menu links */
 /*//////////////////////////////////////////////////*/
         .sidenav a {
+            /*padding: 6px 8px 6px 16px;*/
+            /*text-decoration: none;*/
+            /*font-size: 20px;*/
+            /*color: #616161;*/
+            /*display: block;*/
+            /*font-family: "Roboto", Arial, sans-serif, Helvetica;*/
+
             padding: 6px 8px 6px 16px;
             text-decoration: none;
-            font-size: 20px;
-            color: #616161;
+            font-size: 15px;
+            color: #005a88;
             display: block;
-            font-family: "Roboto", Arial, sans-serif, Helvetica;
         }
 /*///////////////////////////////////////////////////*/
         /* When you mouse over the navigation links, change their color */
 /*/////////////////////////////////////////////////////*/
         .sidenav a:hover {
-            color: #004773;
-            font-size: 23px;
+            color: #eeeeee;
+            background: #0074a5;
             /*background: #0074a5;*/
         }
 /*///////////////////////////////////*/
@@ -52,7 +59,18 @@
             /*.sidenav a {font-size: 18px;}*/
         /*}*/
         .accordion {
-            background-color: #cecece;
+            /*background-color: #cecece;*/
+            /*color: #005a88;*/
+            /*cursor: pointer;*/
+            /*padding: 18px;*/
+            /*width: 100%;*/
+            /*text-align: left;*/
+            /*border: none;*/
+            /*outline: none;*/
+            /*transition: 0.4s;*/
+            /*font-size: 20px;*/
+
+            background-color: #eeeeee;
             color: #005a88;
             cursor: pointer;
             padding: 18px;
@@ -61,29 +79,41 @@
             border: none;
             outline: none;
             transition: 0.4s;
-            font-size: 20px;
         }
 
         /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
         .active, .accordion:hover {
-            background-color: #005a88;
-            color: white;
+            /*background-color: #005a88;*/
+            /*color: white;*/
+
+            background-color: #cbcbcb;
+
         }
 
         /* Style the accordion panel. Note: hidden by default */
         .panel {
-            padding: 0 18px;
+            /*padding: 0 18px;*/
+            /*background-color: #d7d7d7;*/
+            /*display: none;*/
+            /*overflow: hidden;*/
+            /*font-size: 15px;*/
+
+            padding-left: -15px;
             background-color: #d7d7d7;
             display: none;
             overflow: hidden;
-            font-size: 15px;
-
         }
+        .logotipo{
+            width: 155px;
+        }
+
     </style>
 </head>
 <body>
 
+
 <div id="mySidenav" class="sidenav">
+    <img src="../../modocliente/logo/logo.png" class="logotipo">
     <button class="accordion">FRANQUICIA</button>
     <div class="panel">
         <a href="../GestiondeFranquicias/principal_gestion_franquicias.php">Franquicias</a>

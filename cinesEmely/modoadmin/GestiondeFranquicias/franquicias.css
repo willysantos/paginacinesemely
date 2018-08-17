@@ -1,24 +1,32 @@
 body{
-    background-color: #444444;
+    background-color: #eeeeee;
 }
 .formufra{
     height: 100px;
     background-color: #005f81;
 }
-.cuerpo{
-    height: 100%;
-    background-color: #FFFFFF;
-}
+/*.cuerpo{*/
+    /*height: 20%;*/
+    /*background-color: #FFFFFF;*/
+/*}*/
 .contienesala{
-
-    background-color: #4CAF50;
+    font-family: "Roboto", Arial, sans-serif, Helvetica;
+    background-color: #dcdcdc;
+    color: #004773;
+    width:70%;
+    font-size: 22px;
+    height: 70px;
+    text-align: center;
+}
+.contienesala h4{
+    padding-top: 21px;
 }
 .accor {
-    background-color: #4CAF50;
+    background-color: #dcdcdc;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 100px;
     text-align: left;
     border: none;
     outline: none;

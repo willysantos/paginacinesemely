@@ -30,11 +30,11 @@ $resultado = $pdo->query("Select nombre_clasificado, edad_minima from clasificad
     </div>
 
 <div id="main-container">
-    <table  border="1">
+    <table >
         <thead>
         <tr>
             <th>Nombre del Clasificado</th>
-            <th>Edad Minia</th>
+            <th>Edad Mínima</th>
         </tr>
         </thead>
         <tbody>

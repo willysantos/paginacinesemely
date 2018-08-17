@@ -54,6 +54,10 @@ $clasificado = $pdo->query("select id_clasificado, nombre_clasificado from clasi
             <input type="date"  name="fecha_de_registro">
         </div>
         <div class="sec">
+            <label>Link de Trailer</label>
+            <input type="text"  name="link">
+        </div>
+        <div class="sec">
             <label>Foto</label>
             <br>
             <input type="file" accept="image/*" id="foto" name="foto">

@@ -61,14 +61,57 @@ if (empty($_POST)){
         box-shadow: 1px 1px 3px #000;
     }
     .close:hover { background: #00d9ff; }
+
+
+
+
+
+    .bot{
+        width: 25%;
+        display: inline;
+    }
+    .bot {
+        font-family: "Roboto", Arial, sans-serif, Helvetica;
+        width: 75px;
+        height: 15px;
+    }
+    .bottA{
+        width: 25%;
+        background: #005a88;
+        color: #eeeeee;
+        padding: 15px 10px 15px 10px;
+        text-align: center;
+        margin: 15px 25px 15px 25px;
+        margin-left: 300px;
+
+    }
+    .bottA a{
+        text-align: center;
+        display: flex;
+
+margin: 10px auto;
+    }
+
 </style>
-<div>
-    <?php require'../menus/menu_lado_aparencia.php' ?>
+<!--<div>-->
+<!--    --><?php //require'../menus/menu_lado_aparencia.php' ?>
+<!--</div>-->
+<div class="bot">
+
+
+<!--<button class="botones"><a href="#openModalUpdateFranquicia">Modificar Franquicia</a></button>-->
+<!--<button class="botones"><a href="newFranquicia.php">Volver Atras</a></button>-->
+
+<div class="bottA">
+    <a href="#openModalUpdateFranquicia">Modificar Franquicia</a>
+
 </div>
-<div>
-<button ><a href="#openModalUpdateFranquicia">Modificar Franquicia</a></button>
-<button ><a href="newFranquicia.php">Volver Atras</a></button>
+
+    <div class="bottA">
+    <a href="newFranquicia.php">Volver Atras</a>
+    </div>
 </div>
+
 <div id="openModalUpdateFranquicia" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">X</a>

@@ -33,7 +33,7 @@ $consulta = $pdo->query("select franquicias.id_franquicia, ciudad.ciudad, franqu
         </form>
     </div>
         <div id="main-container">
-            <table border="1">
+            <table >
                 <thead>
                     <tr>
                         <th>Ciudad</th>

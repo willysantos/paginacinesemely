@@ -9,7 +9,7 @@ $hora=$_POST['time'];
 $precio=$_POST['precio'];
 
 $insert=$pdo->exec("insert into funcion (id_preparacion, id_sala, fecha_final_tanda, hora, precio)".
-" value({$id_preparacion}, '{$sala}','{$fecha_limite}','{$hora}','{$precio}')");
+" value({$id_preparacion}, {$sala},'{$fecha_limite}','{$hora}','{$precio}')");
 
 header("Location: vertanda.php");
 exit();

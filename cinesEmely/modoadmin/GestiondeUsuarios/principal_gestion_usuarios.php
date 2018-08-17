@@ -10,6 +10,40 @@ franquicias.localidad from franquicias".
 <div>
     <?php require '../menus/menu_lado.php'; ?>
 </div>
+<head>
+    <style>
+
+        #main-container table{
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            background-color: #FFFFFF;
+            border-collapse: collapse;
+
+        }
+
+        #main-container tbody{
+            background: rgba(223, 223, 223, 0.85);
+            color: #005a88;
+
+        }
+        #main-container tr td a{
+            text-decoration: none;
+            color: #005a88;
+
+        }
+
+        #main-container tr td a:hover{
+            color: #004773;
+            font-size: 15px;
+        }
+        #main-container tr th{
+            color: white;
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
+            font-size: 20px;
+        }
+    </style>
+</head>
 <body>
     <div id="main-container">
         <table border="1">

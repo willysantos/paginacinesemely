@@ -14,7 +14,7 @@ require '../menus/menu_lado.php';
 <link rel="stylesheet" href="movie.css">
 <body>
 <div id="main-contai">
-    <table border="1">
+    <table>
         <thead>
         <tr>
             <th>Nombre de la Pelicula</th>

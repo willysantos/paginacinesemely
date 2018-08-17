@@ -47,7 +47,7 @@ $sala=$pdo->query("select sala.id_sala, sala.nombre_sala, tipo_sala.nombre from 
         <select name="select_sala" id="select_sala">
             <option value="0">Seleccion una sala</option>
             <?php foreach ($sala as $s): ?>
-                <option value="<?php echo $a['id_sala'] ?>"><?php echo $s['nombre_sala'] ?>---
+                <option value="<?php echo $s['id_sala'] ?>"><?php echo $s['nombre_sala'] ?>---
                     <?php echo $s['nombre'] ?></option>
             <?php endforeach; ?>
         </select>
@@ -61,8 +61,8 @@ $sala=$pdo->query("select sala.id_sala, sala.nombre_sala, tipo_sala.nombre from 
         <input type="time" name="time">
     </div>
     <div>
-        <label >Precio</label>
-        <input type="text" value="L." name="precio">
+        <label >Precio L.</label>
+        <input type="text" value="" name="precio">
     </div>
     <div>
         <input type="submit" value="Agregar Funcion">

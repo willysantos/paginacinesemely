@@ -30,9 +30,9 @@ $consulta2=$pdo->query("select sala.id_sala, sala.nombre_sala from sala".
 " where franquicias.id_franquicia = {$id_franquicia}");
 foreach ($consulta2 as $r):?>
     <div class="contienesala">
-        <div>
+
         <h4><?php echo $r['nombre_sala']?></h4>
-        </div>
-        <button type="button" class="accor" ></button>
+
+
     </div>
     <?php endforeach; ?>

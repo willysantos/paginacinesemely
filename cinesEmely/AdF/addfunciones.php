@@ -46,6 +46,9 @@ $consulta=$pdo->query("select *from ciudad");
 
             </select>
         </form>
+        <div id="cargarpre">
+
+        </div>
 
     </div>
 </div>

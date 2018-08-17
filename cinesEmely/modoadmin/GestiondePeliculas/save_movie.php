@@ -7,7 +7,7 @@ require '../conexion/conexion.php';
     $clasificados=$_POST['select_clasificado'];
     $descripcion=$_POST['descripcion'];
     $fecha=$_POST['fecha_de_registro'];
-
+    $link=$_POST['link'];
     $foto = $_FILES['foto']['name'];
     $ruta = $_FILES['foto']['tmp_name'];
     $destino = "fotos/".$foto;
@@ -25,8 +25,8 @@ require '../conexion/conexion.php';
 //}
 
     $inser=$pdo->exec("insert into pelicula(nombre_pelicula,genero,audio,id_clasificado,descripcion,
-fecha_de_registro, ruta_img)".
-     " values('{$pelicula}',{$genero},{$audio},{$clasificados},'{$descripcion}','{$fecha}','{$destino}')");
+fecha_de_registro, ruta_img, link)".
+     " values('{$pelicula}',{$genero},{$audio},{$clasificados},'{$descripcion}','{$fecha}','{$destino}','{$link}')");
     header("Location: principal_peliculas.php");
     exit();
 

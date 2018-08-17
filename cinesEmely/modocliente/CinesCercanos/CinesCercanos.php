@@ -15,25 +15,25 @@ echo count($id_c);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .accordion {
-            background-color: #eee;
-            color: #444;
+            background-color: #eeeeee;
+            /*color: #00446d;*/
             cursor: pointer;
             padding: 18px;
             width: 100%;
             border: none;
-            text-align: left;
+            text-align: center;
             outline: none;
-            font-size: 15px;
+            font-size: 20px;
             transition: 0.4s;
         }
 
         .active, .accordion:hover {
-            background-color: #ccc;
+            background-color: rgb(45, 123, 168);
         }
 
         .panel {
             padding: 0 18px;
-            background-color: white;
+            background-color: #6f6f6f;
             max-height: 0;
             padding: 0px;
             overflow: hidden;
@@ -47,7 +47,7 @@ echo count($id_c);
 <!--    --><?php //require'../menu/menu_horizontal2.php'; ?>
 <!--</div>-->
 <?php  foreach ($ciudad as $ciudad): ?>
-    <button style="background-color: #00d9ff" class="accordion" ><?php echo $ciudad['ciudad']?> </button>
+    <button style="background-color: rgb(47, 145, 191)" class="accordion" ><?php echo $ciudad['ciudad']?> </button>
     <div class="panel">
         <?php if ($contador_id_ciudad<count($id_c)){
             $consulta_localidad=$pdo->query("select * from franquicias".

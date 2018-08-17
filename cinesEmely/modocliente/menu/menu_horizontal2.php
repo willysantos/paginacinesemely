@@ -1,19 +1,16 @@
 
+<link rel="stylesheet" href="cssMenu2.css">
+<img src="logo.png" width="1360" height="130">
 
-<head>
-    <link rel="stylesheet" href="cssMenu2.css">
-</head>
-
-<img src="logout.jpeg" width="1350" height="143">
-<button class="tablink" onclick="openPage('Home', this, '#2F91BF')">Proximos Estrenos</button>
-<button class="tablink" onclick="openPage('News', this, '#2F91BF')" id="defaultOpen">Peliculas Hoy</button>
-<button class="tablink" onclick="openPage('Contact', this, '#2F91BF')">Cines Cercanos</button>
-<button class="tablink" onclick="openPage('Sesion',this,'#2f91bf')"><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>
-<!--<button class="tablink" onclick="openPage('Sesion',this,'#2f91bf')"><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>-->
+<button class="tablink" onclick="openPage('Home', this, '#2f91bf')">Proximos Estrenos</button>
+<button class="tablink" onclick="openPage('News', this, '#2f91bf')" id="defaultOpen">Peliculas Hoy</button>
+<button class="tablink" onclick="openPage('Contact', this, '#2f91bf')">Cines Cercanos</button>
+<button class="tablink" ><a href="../../modoadmin/login/inicio-sesion.php">Iniciar Sesion</a></button>
 
 <div id="Home" class="tabcontent">
-    <h3 style="background-color: black"></h3>
-    <p>Home is where the heart is..</p>
+    <div>
+        <?php require '../prox/proximos.php'?>
+    </div>
 </div>
 
 <div id="News" class="tabcontent">
@@ -23,20 +20,12 @@
 </div>
 
 <div id="Contact" class="tabcontent">
-    <h3 style="background-color: black">Ciudades</h3>
+    <h3 style="background-color: #eeeeee">Ciudades</h3>
     <div>
         <?php require '../CinesCercanos/CinesCercanos.php'?>
     </div>
 </div>
 
-
-<div id="About" class="tabcontent">
-
-    <div>
-        <?php
-        require '../../modoadmin/login/inicio-sesion.php'?>
-    </div>
-</div>
 
 <script>
     function openPage(pageName, elmnt, color) {
