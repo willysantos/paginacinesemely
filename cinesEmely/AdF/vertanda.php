@@ -15,7 +15,7 @@ $f_l=[];
 foreach ($fecha_limite as $fila):
     $f_l[]=($fila['fecha_final_tanda']);
 endforeach;
-$fecha_limite_correcta=str_replace("-","",$f_l[0]);
+//$fecha_limite_correcta=str_replace("-","",$f_l[0]);
 $validar_peli=$pdo->query("select pelicula.id_pelicula from pelicula".
     " inner join genero_pelicula on genero_pelicula.id_genero = pelicula.genero
 inner join audio_pelicula on audio_pelicula.id_audio = pelicula.audio
@@ -51,7 +51,54 @@ endforeach;
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../../../../CE/cinesEmely/modocliente/PeliculasHoy/cartelera1.css">
+<!--    <link rel="stylesheet" href="../modocliente/PeliculasHoy/cartelera1.css">-->
+<style>
+    body{
+        background: #eeeeee;
+        /*height: 100%;*/
+        font-family: "Roboto", Arial, sans-serif, Helvetica;
+        padding-left: 170px;
+    }
+    #seccion{
+        margin-right: 150px ;
+        width: 100%;
+        height: 300px;
+        background-color: #c0c0cd;
+        display:inline;
+        margin-top: 10px;
+
+    }
+    .det{
+        height: 400px;
+        margin: 25px 15px 25px 20px;
+        display: inline-block;
+        /*margin-right: 20px;*/
+        background: #567d8d;
+        box-shadow: 2px 2px 2px #c0c0cd;
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+    }
+
+    .h42{
+        display: inline-block;
+        margin-right: 25px;
+        /*margin: 5px 15px 10px 5px;*/
+        padding: 10px 5px 15px 10px;
+        /*background: #005f81;*/
+        color: #eeeeee;
+    }
+    .detalles{
+        background: #eeeeee;
+        display: flex;
+
+    }
+    .imagen{
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px #eeeeee;
+        margin: 5px 15px 15px 30px;
+    }
+</style>
+
 </head>
 <body>
 <?php foreach ($lista_limpia as $row):
@@ -77,15 +124,17 @@ genero_pelicula.genero_pelicula, audio_pelicula.audio_pelicula,
 //    "and pelicula.id_pelicula = {$row}");
     foreach ($consulta as $fila):?>
         <div id="seccion">
-            <div class="cartel">
-                <img src="../modoadmin/GestiondePeliculas/<?php echo$fila['ruta_img']?>"
-                     height="85%" width="66%" class="imagen">
-            </div>
-            <div class="nombre">
+
+            <div class="detalles">
+                <div class="cartel">
+                    <img src="../modoadmin/GestiondePeliculas/<?php echo$fila['ruta_img']?>"
+                         height="400" width="300" class="imagen">
+                </div>
+            <div class="det">
                 <h4>Nombre de la Pelicula</h4>
-                <h3 class="h41"><?php echo $fila['nombre_pelicula']?></h3>
+                <h4 class="h42"><?php echo $fila['nombre_pelicula']?></h4>
             </div>
-            <div class="datos">
+            <div class="det">
                 <h4>Datos de la Pelicula</h4>
                 <h4 class="h42"><?php echo $fila['genero_pelicula']?></h4>
                 <h4 class="h42"><?php echo $fila['audio_pelicula']?></h4>
@@ -93,13 +142,14 @@ genero_pelicula.genero_pelicula, audio_pelicula.audio_pelicula,
                 <h4 class="h42"><?php echo $fila['edad_minima']?></h4>
                 <h4 class="h42"><?php echo $fila['descripcion']?></h4>
             </div>
-            <div class="tandas">
+            <div class="det">
                 <h4>Localidades</h4>
-                <h4 class="h43"><?php echo $fila['ciudad']?>-<?php echo $fila['localidad']?></h4>
+                <h4 class="h42"><?php echo $fila['ciudad']?>-<?php echo $fila['localidad']?></h4>
             </div>
-            <div class="horario" id="horario">
-                <h4>Tandas</h4>
-                <h4 class="h43"><?php echo $fila['hora']?></h4>
+            <div class="det" id="horario">
+                <h4 >Tandas</h4>
+                <h4 class="h42"><?php echo $fila['hora']?></h4>
+            </div>
             </div>
         </div>
         <?php

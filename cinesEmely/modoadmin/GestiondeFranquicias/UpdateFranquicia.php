@@ -85,14 +85,13 @@ if (empty($_POST)){
         margin-left: 300px;
 
     }
-    .bottA a{
-        text-align: center;
-        display: flex;
-
-margin: 10px auto;
+    .bottA:hover{
+        cursor: pointer;
+        color: #005a88;
+        background: #eeeeee;
     }
-
 </style>
+
 <!--<div>-->
 <!--    --><?php //require'../menus/menu_lado_aparencia.php' ?>
 <!--</div>-->
@@ -102,13 +101,12 @@ margin: 10px auto;
 <!--<button class="botones"><a href="#openModalUpdateFranquicia">Modificar Franquicia</a></button>-->
 <!--<button class="botones"><a href="newFranquicia.php">Volver Atras</a></button>-->
 
-<div class="bottA">
-    <a href="#openModalUpdateFranquicia">Modificar Franquicia</a>
-
+<div class="bottA" onclick="location='#openModalUpdateFranquicia'">
+Modificar
 </div>
 
-    <div class="bottA">
-    <a href="newFranquicia.php">Volver Atras</a>
+    <div class="bottA" onclick="location='newFranquicia.php'">
+    Volver Atrás
     </div>
 </div>
 

@@ -13,7 +13,7 @@ $consulta=$pdo->query("select pelicula.ruta_img, pelicula.nombre_pelicula, audio
 <link rel="stylesheet" href="../GestiondePeliculas/movie.css">
 <body>
 <div id="main-contai">
-    <table border="1">
+    <table >
         <thead>
         <tr>
             <th>Cartel</th>

@@ -46,7 +46,7 @@ if(!empty($_POST)){
         }elseif ($cargo==='Admin_Fran'){
             $_SESSION['usuario']=$usuario['nombre_usuario'];
             $_SESSION['iniciado']=true;
-            header("Location: ../../../../CE/cinesEmely/AdF/adf.php");
+            header("Location: ../../../../cinesEmely/AdF/adf.php");
             exit;
         }
     }

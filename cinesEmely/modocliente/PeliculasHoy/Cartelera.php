@@ -15,8 +15,8 @@ $f_l=[];
 foreach ($fecha_limite as $fila):
 $f_l[]=($fila['fecha_final_tanda']);
 endforeach;
-
-$fecha_limite_correcta=str_replace("-","",$f_l[0]);
+//
+//$fecha_limite_correcta=str_replace("-","",$f_l[0]);
 
 $validar_peli=$pdo->query("select pelicula.id_pelicula from pelicula".
     " inner join genero_pelicula on genero_pelicula.id_genero = pelicula.genero

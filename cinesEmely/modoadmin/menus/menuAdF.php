@@ -4,10 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--    <link rel="stylesheet" href="menu_lado.css">-->
     <style>
-        body{
-            margin: 0px;
-            margin-left: 180px;
-        }
+
+    
+    
+    
+    /*////////////////////////*/
+
+                                               body{
+                                                   font-family: "Roboto", Arial, sans-serif, Helvetica;
+                                                   margin: 0px;
+                                                   margin-left: 180px;
+                                               }
         /* The sidebar menu */
         .sidenav {
             height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -16,7 +23,7 @@
             z-index: 1; /* Stay on top */
             top: 0; /* Stay at the top */
             left: 0;
-            background-color: #005a88; /* Black */
+            background-color: #eeeeee; /* Black */
             overflow-x: hidden; /* Disable horizontal scroll */
             padding-top: 20px;
         }
@@ -24,18 +31,26 @@
         /* The navigation menu links */
         /*//////////////////////////////////////////////////*/
         .sidenav a {
+            /*padding: 6px 8px 6px 16px;*/
+            /*text-decoration: none;*/
+            /*font-size: 20px;*/
+            /*color: #616161;*/
+            /*display: block;*/
+            /*font-family: "Roboto", Arial, sans-serif, Helvetica;*/
+
             padding: 6px 8px 6px 16px;
             text-decoration: none;
-            font-size: 25px;
-            color: #616161;
+            font-size: 15px;
+            color: #005a88;
             display: block;
         }
         /*///////////////////////////////////////////////////*/
         /* When you mouse over the navigation links, change their color */
         /*/////////////////////////////////////////////////////*/
         .sidenav a:hover {
-            color: #37a0e1;
+            color: #eeeeee;
             background: #0074a5;
+            /*background: #0074a5;*/
         }
         /*///////////////////////////////////*/
         /* Style page content */
@@ -50,8 +65,19 @@
         /*.sidenav a {font-size: 18px;}*/
         /*}*/
         .accordion {
-            background-color: #005a88;
-            color: #444;
+            /*background-color: #cecece;*/
+            /*color: #005a88;*/
+            /*cursor: pointer;*/
+            /*padding: 18px;*/
+            /*width: 100%;*/
+            /*text-align: left;*/
+            /*border: none;*/
+            /*outline: none;*/
+            /*transition: 0.4s;*/
+            /*font-size: 20px;*/
+
+            background-color: #eeeeee;
+            color: #005a88;
             cursor: pointer;
             padding: 18px;
             width: 100%;
@@ -63,37 +89,54 @@
 
         /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
         .active, .accordion:hover {
-            background-color: #0089bd;
+            /*background-color: #005a88;*/
+            /*color: white;*/
+
+            background-color: #cbcbcb;
+
         }
 
         /* Style the accordion panel. Note: hidden by default */
         .panel {
-            padding: 0 18px;
+            /*padding: 0 18px;*/
+            /*background-color: #d7d7d7;*/
+            /*display: none;*/
+            /*overflow: hidden;*/
+            /*font-size: 15px;*/
+
+            padding-left: -15px;
             background-color: #d7d7d7;
             display: none;
             overflow: hidden;
-
         }
+        .logotipo{
+            width: 155px;
+        }
+    
+    
+    
+    
     </style>
 </head>
 <body>
 
 <div id="mySidenav" class="sidenav">
-    <button class="accordion">*Tandas</button>
+    <img src="../../AdF/CSSaddFranquicias/logo.png" class="logotipo">
+    <button class="accordion">Tandas</button>
     <div class="panel">
-        <a href="../../../../CE/cinesEmely/AdF/addfunciones.php">Agregar Funciones</a>
-        <a href="../../../../CE/cinesEmely/AdF/vertanda.php">Ver Tanda</a>
+        <a href="../../../../CE2/cinesEmely/AdF/addfunciones.php">Agregar Funciones</a>
+        <a href="../../../../CE2/cinesEmely/AdF/vertanda.php">Ver Tanda</a>
     </div>
-    <div class="main">
-
-    </div>
+<!--    <div class="main">-->
+<!---->
+<!--    </div>-->
     <button class="accordion">Sesion</button>
     <div class="panel">
-        <a href="../AdF/cerrar-sesion.php">cerrar sesion</a>
+        <a href="../../../../CE2/cinesEmely/modoadmin/login/inicio-sesion.php">Cerrar Sesion</a>
     </div>
-    <div class="main">
-
-    </div>
+<!--    <div class="main">-->
+<!---->
+<!--    </div>-->
 
     <script>
 

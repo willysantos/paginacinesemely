@@ -13,13 +13,13 @@ body{
 #box{
     padding: 30px;
     width: 300px;
-    margin: 230px auto auto auto;
+    /*margin: 230px auto auto auto;*/
     background: white;
     border-radius: 10px;
     box-shadow: 2px 1px 1px #616161;
 }
-#main-container{
-    margin: 150px auto;
+#main-container {
+    margin: 150px auto 150px 142px;
     width: 600px;
 }
 .sec{

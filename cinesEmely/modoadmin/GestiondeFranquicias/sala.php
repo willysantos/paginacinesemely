@@ -9,10 +9,10 @@ sala.nombre_sala from franquicias".
 <div>
     <?php require '../menus/menu_lado.php';?>
 </div>
-<link rel="stylesheet" href="../pre/tab.css">
+<link rel="stylesheet" href="../GestiondeFranquicias/CCSfranquicias/NuevaFranquicia.css">
 <body>
     <div id="main-container">
-        <table border="1">
+        <table >
             <thead>
             <tr>
                 <th>Ciudad</th>

@@ -28,10 +28,12 @@ echo count($id_c);
         }
 
         .active, .accordion:hover {
-            background-color: rgb(45, 123, 168);
+            /*background-color: rgb(45, 123, 168);*/
+            background: #cccccc;
         }
 
         .panel {
+
             padding: 0 18px;
             background-color: #6f6f6f;
             max-height: 0;
@@ -54,8 +56,8 @@ echo count($id_c);
                 " where franquicias.id_ciudad = {$id_c[$contador_id_ciudad]}");
             foreach ($consulta_localidad as $cl):?>
             <button class="accordion"><?php echo $cl['localidad']?> </button>
-            <div class="panel" >
-            </div>
+<!--            <div class="panel" >-->
+<!--            </div>-->
         <?php
         endforeach;
         } ?>

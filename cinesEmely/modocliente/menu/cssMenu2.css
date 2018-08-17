@@ -35,11 +35,15 @@ body, html {
     display: none;
     padding: 100px 20px;
     height: 100%;
+    width: 30%;
     font-size: 18px;
 }
 .tabcontent h3{
     padding: 10px;
     text-align: center;
+}
+.tabcontent{
+    width: 45%;
 }
 
 #Home {background-color: #eeeeee;}

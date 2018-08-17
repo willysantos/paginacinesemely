@@ -12,20 +12,24 @@ franquicias.localidad from franquicias".
 </div>
 <head>
     <style>
-
-        #main-container table{
-            border-radius: 10px;
-            width: 100%;
-            text-align: center;
-            background-color: #FFFFFF;
-            border-collapse: collapse;
-
+        body{
+            background: #c0c0cd;
         }
+
+        /*#main-container table{*/
+            /*margin-right: 100px;*/
+            /*border-radius: 10px;*/
+            /*width: 100%;*/
+            /*text-align: center;*/
+            /*background-color: #FFFFFF;*/
+            /*border-collapse: collapse;*/
+
+        /*}*/
 
         #main-container tbody{
             background: rgba(223, 223, 223, 0.85);
             color: #005a88;
-
+            margin-right: 250px;
         }
         #main-container tr td a{
             text-decoration: none;
@@ -43,10 +47,11 @@ franquicias.localidad from franquicias".
             font-size: 20px;
         }
     </style>
+
 </head>
 <body>
     <div id="main-container">
-        <table border="1">
+        <table >
             <thead>
             <tr>
                 <th>Nombre de Usuario</th>
